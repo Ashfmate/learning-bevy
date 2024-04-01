@@ -36,6 +36,6 @@ Bevy [docs](https://docs.rs/bevy/latest/bevy/)
 Learn bevy using their own [guide](https://bevyengine.org/learn/quick-start/introduction/)
 
 # Contribution
-To contribute to this project, please just make an issue, I will try my best to answer as much as possible. I want to learn from you people and so it is appropriate to see issues and get more information from there. If you have a problem, you can also make an issue and I would gladly help.
+To contribute to this project, please just make an issue, I will try my best to answer as much as possible. I want to learn from you people and so it is appropriate to see issues and get more information from there.
 
 # License
