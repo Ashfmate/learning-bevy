@@ -39,3 +39,5 @@ Learn bevy using their own [guide](https://bevyengine.org/learn/quick-start/intr
 To contribute to this project, please just make an issue, I will try my best to answer as much as possible. I want to learn from you people and so it is appropriate to see issues and get more information from there.
 
 # License
+
+The [[LICENSE]] for this project is MIT License.
