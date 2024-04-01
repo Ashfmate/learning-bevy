@@ -40,4 +40,4 @@ To contribute to this project, please just make an issue, I will try my best to 
 
 # License
 
-The [[LICENSE]] for this project is MIT License.
+This project is under the protection of the [MIT License](LICENSE).
