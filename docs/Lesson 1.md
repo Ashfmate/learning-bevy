@@ -2,7 +2,7 @@
 
 ## Addition
 
-```rs
+```rust
 use bevy::prelude::*;
 
 fn main() {
@@ -28,7 +28,7 @@ ___
 
 `use bevy::prelude::*;` Imports the standard, most common components to the main.rs file
 
-```rs
+```rust
 fn main() {
     App::new().add_plugins(DefaultPlugins).run();
 }
