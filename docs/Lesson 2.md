@@ -82,7 +82,7 @@ NONE
 NONE
 
 ___
-# Syntactic Explanation
+# Syntax
 
 ```rust
 #[derive(Component, Debug)]
