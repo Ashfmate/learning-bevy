@@ -1,6 +1,12 @@
 use crate::movement::Velocity;
 use bevy::prelude::*;
 
+#[derive(Bundle)]
+struct ObjectBundle {
+    model: SceneBundle,
+    vel: Velocity,
+}
+
 pub struct ObjectPlugin;
 
 impl Plugin for ObjectPlugin {
@@ -9,11 +15,15 @@ impl Plugin for ObjectPlugin {
     }
 }
 
-fn spawn(mut cmd: Commands) {
-    cmd.spawn((
-        SpatialBundle::default(),
-        Velocity {
-            vel: Vec3::new(0.1, 0.1, 0.1),
+fn spawn(mut cmd: Commands, asset_server: Res<AssetServer>) {
+    cmd.spawn(ObjectBundle {
+        model: SceneBundle {
+            scene: asset_server.load("Tree.glb#Scene0"),
+            transform: Transform::from_translation(Vec3::new(-10.0, 0.0, 0.0)),
+            ..Default::default()
         },
-    ));
+        vel: Velocity {
+            vel: Vec3::new(1.0, 0.0, 0.0),
+        },
+    });
 }
